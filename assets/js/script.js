@@ -296,7 +296,7 @@ const dataProjects = [
     { "name": "andorid List to List", "desc": "Aplikasi andorid List to List berbasis Java dan XML.", "image": "andorid", "category": "andorid", "links": { "code": "https://github.com/NazlaAulia/List-to-list-app1.git" } },
     { "name": "Aplikasi Kolam Renang UNESA", "desc": "Aplikasi desktop untuk pengelolaan data kolam renang UNESA menggunakan Java.", "image": "kolamrenang", "category": "desktop", "links": { "code": "https://github.com/NazlaAulia/pemesanan-tiket-kolam-renang-unesa.git" } },
     { "name": "Aplikasi KRS & KHS", "desc": "Aplikasi desktop sistem KRS dan KHS berbasis Java.", "image": "visual", "category": "desktop", "links": { "code": "https://github.com/NazlaAulia/ProjectKRSKHS.git" } },
-    { "name": "Web Portofolio", "desc": "Website portofolio pribadi menggunakan HTML, CSS dan JavaScript.", "image": "portofolio", "category": "web", "links": { "code": "#" } },
+    { "name": "Web Portofolio", "desc": "Website portofolio pribadi menggunakan HTML, CSS dan JavaScript.", "image": "portofolio", "category": "web", "links": { "code": "https://github.com/NazlaAulia/Portfolio-Nazla.git" } },
    
    
 ];
