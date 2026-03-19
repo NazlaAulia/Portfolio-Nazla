@@ -181,6 +181,11 @@ header .navbar ul li a:hover {
 /* hamburger icon ends */
 
 /* hero section starts*/
+
+.home {
+  padding-top: 8rem; /* biar ga ketiban header */
+}
+
 .home {
   position: relative;
   display: flex;
@@ -332,6 +337,27 @@ header .navbar ul li a:hover {
   background-color: #ee00da;
 }
 /* social icons end */
+
+/*media hp bagain home*/
+@media (max-width: 768px) {
+  .home .content h2 {
+    font-size: 6rem;
+  }
+
+  .home .content p {
+    font-size: 6rem;
+  }
+  .home .content p span {
+    font-size: 4rem; /* ⬅️ INI YANG BENERIN */
+  }
+}
+
+@media (max-width: 768px) {
+  .home .image {
+    display: none;
+  }
+}
+
 
 /* hero media queries starts*/
 @media (max-width: 450px) {
