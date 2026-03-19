@@ -1703,6 +1703,7 @@ form .button-area {
 @media (max-width: 768px) {
 
   .dropdown-menu {
+    
     max-height: 200px;   /* batas tinggi */
     overflow-y: auto;    /* aktifkan scroll */
     background: #111244; /* samakan warna biru */
@@ -1710,22 +1711,15 @@ form .button-area {
 
 }
 
-/* Biar enteng pas ganti ukuran/scroll di HP */
 @media (max-width: 768px) {
-    * {
-        /* Matikan transisi yang kelamaan buat semua elemen di HP */
-        transition-duration: 0.1s !important; 
-    }
+  .work .box-container .box .content {
+  
+     transition: 0.5s;
+     transition: none;
+  }
 
-    .navbar, .navbar a, .box, .grid-item {
-        /* Fokus matiin transisi di elemen yang sering gerak */
-        transition: none !important; 
-    }
-
-    /* Kalau pakai animasi AOS atau ScrollReveal, mending matiin di HP */
-    [data-aos] {
-        transform: none !important;
-        transition-duration: 0s !important;
-    }
+  .work .box-container .box:hover .content {
+    top: 0; /* matiin efek hover */
+  }
 }
 
